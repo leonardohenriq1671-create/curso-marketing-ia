@@ -1,0 +1,23 @@
+{
+  "name": "curso-ai-2025",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export-pdf": "node scripts/generate-pdf.js"
+  },
+  "dependencies": {
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stripe": "^12.0.0",
+    "mercadopago": "^2.4.0",
+    "node-fetch": "^2.6.7",
+    "@supabase/supabase-js": "^2.0.0",
+    "nodemailer": "^6.9.0",
+    "puppeteer": "^20.0.0",
+    "formidable": "^2.0.1"
+  }
+}
